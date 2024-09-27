@@ -1,7 +1,7 @@
 //write function with parameter and return parameter
-let a = (x) => {
+let b = (x) => {
     return x;
 }
 
 //write to console
-console.log(a(5));
+console.log("x = " + b(5));
