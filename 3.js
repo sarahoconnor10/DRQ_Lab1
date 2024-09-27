@@ -11,20 +11,20 @@ let deleteTask = (task) => {
     console.log("\nDeleting task ...");
 
     let index = Tasks.indexOf(task);
-    if(index != -1){
-        Tasks.splice(index , 1);
+    if (index != -1) {
+        Tasks.splice(index, 1);
         console.log("\'" + task + "\' deleted.");
     }
-    else{
-        console.log("Task not found.");
-    }    
+    else {
+        console.log("Task \'" + task + "\' not found.");
+    }
     return Tasks.length;
 }
 
 //loop through array and display each task
 let listAllTasks = () => {
     console.log("\nTask List: ");
-    if(Tasks.length < 1){
+    if (Tasks.length < 1) {
         console.log("No tasks to display.");
         return;
     }
