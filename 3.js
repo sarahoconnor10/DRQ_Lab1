@@ -5,6 +5,7 @@ let addTask = (task) => {
     console.log("\'" + task + "\' added.");
     return Tasks.length;
 }
+
 //delete string from task list
 let deleteTask = (task) => {
     console.log("\nDeleting task ...");
@@ -41,7 +42,7 @@ let Tasks = [];
 addTask("One");
 addTask("Two");
 listAllTasks();
-deleteTask("s");
+deleteTask("test");
 listAllTasks();
 deleteTask("One");
 deleteTask("Two");
